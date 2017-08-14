@@ -264,7 +264,7 @@ module ActiveRecord
       end
 
       def raw_connection
-        master_connection
+        master_connection.raw_connection
       end
 
       def to_s
